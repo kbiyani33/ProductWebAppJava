@@ -9,6 +9,7 @@
 </head>
 <body>
         <h2>Product List</h2>
+        Welcome, ${user}
         <table border="1">
                 <tr>
                         <th>ID</th><th>Name</th><th>Price</th>
@@ -25,5 +26,6 @@
                 <td colspan="2">${total}</td>
                 </tr>
         </table>
+        <a href="logout.do">Logout</a>
 </body>
 </html>

@@ -8,7 +8,7 @@
 </head>
 <body>
         <h1>Login</h1>
-        ${msg}
+        ${param.msg}
         <form method="post" action="login.do">
                 User<input type="text" name="username"> <br />
                 Password <input type="password" name="password"> <br />
